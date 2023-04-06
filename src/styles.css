@@ -1,1 +1,93 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  font-family: 'Playfair Display', serif;
+ }
+
+ .nav-link:hover {
+     color : rgb(209,159,187)!important
+ }
+ .nav-link.active {
+     color : rgb(209,159,187) !important
+
+ }
+ .slider-caption {
+     position: absolute;
+     top: 15%;
+     bottom: 15%;
+     left:0px;
+     padding-top: 1.25rem;
+     padding-bottom: 1.25rem;
+     color: #fff;
+     text-align: center;
+ }
+ .slider-carousel{
+     height: 80vh;
+ }
+ .sliders h1 {
+     font-size: 3rem;
+ }
+ .footer{
+     background-color: rgb(245, 223, 235) !important
+ }
+ .footer ul {
+    list-style: none;
+    padding-left: 0px;
+ }
+ .shop-section {
+     background-color: rgb(243,243,245);
+ }
+ .shop-btn {
+     color: rgb(255, 255, 255);
+     background-color: rgb(87, 49, 70);
+ }
+ .shop-btn:hover {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(87, 49, 70) !important;
+     opacity: 0.6;
+ }
+ .bg-shop {
+     background-color: rgb(243,243,245)
+ }
+ .quantity-icon {
+     background-color: #E0E0E0;
+
+ }
+ .quantity {
+     width: fit-content;
+     border-color: #828282;
+ }
+ .detail-acc-btn {
+ background-color: transparent;
+ }
+ .img-selected {
+     border: 1px solid black;
+ }
+ .abot-img {
+     border-radius: 50%;
+ }
+ .cart {
+     background-color:  rgb(243,243,245);
+ }
+ .quantity-icon {
+     background-color: #E0E0E0;
+
+ }
+ .quantity {
+     width: fit-content;
+     border-color: #828282;
+ }
+ .price {
+     color :#F2994A
+ }
+ .old-price {
+     text-decoration: overline;
+     font-size: 12px;
+     line-height: 15px;
+     text-decoration-line: line-through;
+    color: #4E5150;;
+ }
+ .navbar-logo {
+     font-weight: 600;
+     font-size: 30px;
+ }
